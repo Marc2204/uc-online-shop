@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>a
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>USER LOGIN</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="1stStyle.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+    </head>
+
+    <body>
+
+        <header class="header" ><h1>UC ONLINE SHOP</h1></header>
+
+       <div class="container" id="signup" style="display:none">
+        <h1 class="form-title">Register</h1>
+
+
+        <form method="forms" action="" >
+            
+            <div class="input-group">
+            
+            <i class="fas fa-user"></i>
+            <input type="text" name="fname" id="fname" placeholder="First Name" required> 
+            <label class="fname" >First Name</label>
+
+            </div>
+            
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required> 
+                <label class="lname" >Last Name</label>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email" required> 
+                <label class="email" >Email</label>
+                
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+                <label class="password" >Password</label>
+            </div>
+
+            <input type="button" class="btn" value="Sign up" name="signup">
+
+        </form>
+
+        <div class="links">
+            <p>Already have account?</p>
+            <button id="SignInButton">Sign in</button>
+        </div>
+        
+       </div>
+
+       <!-- SIGN IN -->
+       <div class="container" id="signin" >
+
+        <h1 class="form-title">Sign In</h1>
+        <form method="forms" action="">
+
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email" required> 
+                <label class="email">Email</label>
+                
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+                <label class="password" >Password</label>
+            </div>
+
+            
+
+            <input type="button" class="btn" value="Sign In" name="signIn">
+
+        </form>
+        <div class="links">
+            <p>Dont have account?</p>
+            <button id="SignUpButton">Sign up</button>
+            <button id="AdminButton">Admin Sign Up</button>
+        </div>
+        
+       </div>
+
+       <!-- ADMIN -->
+       <div class="container" id="Admin" style="display:none">
+        
+        <h1 class="form-title">Admin Sign In</h1>
+        <form method="forms" action="">
+
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email" required> 
+                <label class="email">Email</label>
+                
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+                <label class="password" >Password</label>
+            </div>
+
+            <input type="button" class="btn" value="Sign In" name="signIn">
+
+        </form>
+            <div class="links">
+                <button id="CustomerSignIn">Customer Sign in</button>
+
+            </div>
+
+            <script src="1stJquery.js"></script>
+    </body>
+
+   
+
+</html>
